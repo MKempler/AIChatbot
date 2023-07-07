@@ -1,0 +1,72 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "Yo", "Listen", "Please help me", "I need a hand", "Can you assist me", "I need help", "Can you help me", "Assist me please"],
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?", "Hello! How can I assist you today?", "Hello, what can I do for you?", "Good to see you! How can I assist you today?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "I will be back", "I have to go", "Catch you later", "I'm off", "See you soon"],
+            "responses": ["See you later, thanks for visiting", "Have a great day", "Bye! Come back again soon.", "Looking forward to our next chat.", "Goodbye! Have a nice day.", "Sure, talk to you later"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Thanks a lot", "Thanks a bunch", "You've been very helpful", "I appreciate your help", "Thank you very much", "Thanks for the assistance"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome!", "No problem, happy to assist", "Glad I could help!"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Can you provide more details?", "I didn't get that. Can you rephrase, please?", "I'm not sure I understand. Can you clarify?"],
+            "context": [""]
+        },
+        {
+            "tag": "about",
+            "patterns": ["What do you do?", "What is your purpose?", "What can you do?", "What are your capabilities?", "What can you assist with?", "What is your function?", "What tasks can you perform?", "What services do you provide?"],
+            "responses": ["I'm an AI chatbot and I'm here to assist you. I can answer your questions, provide information, and perform simple tasks.", "As an AI chatbot, I can help answer your questions and provide information on a variety of topics.", "I'm designed to assist with information retrieval and task execution. How can I assist you today?"],
+            "context": [""]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like?", "What's the temperature?", "Is it going to rain today?", "Do I need an umbrella?", "What's the forecast for today?", "How's the weather in {location}?", "Will it be sunny tomorrow?", "Is it going to be hot today?"],
+            "responses": ["I'm sorry, as an AI language model, I don't have access to real-time data such as weather.", "Unfortunately, I cannot provide real-time weather updates.", "I'm afraid I can't provide current weather information."],
+            "context": [""]
+        },
+        {
+            "tag": "jokes",
+            "patterns": ["Tell me a joke", "Do you know any good jokes?", "I need a laugh", "Make me laugh", "Give me something to laugh about"],
+            "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why did the math book look sad? Because it had too many problems.", "What did the zero say to the eight? Nice belt!"],
+            "context": [""]
+        },
+        {
+            "tag": "compliments",
+            "patterns": ["You're smart", "You're awesome", "You're doing great", "You're amazing", "You're helpful"],
+            "responses": ["Thank you! I'm here to assist you.", "That's very kind of you! How else can I help?", "I appreciate the compliment! What else can I assist with?"],
+            "context": [""]
+        },
+        {
+            "tag": "location",
+            "patterns": ["Where are you?", "What's your location?", "Where are you located?", "Where do you live?"],
+            "responses": ["As an AI, I don't have a physical location.", "I'm based in the cloud and can assist you from anywhere!", "I'm virtual and don't have a physical location."],
+            "context": [""]
+        },
+        {
+            "tag": "time",
+            "patterns": ["What time is it?", "Can you tell me the time?", "I need to know the current time", "What's the current time?"],
+            "responses": ["I'm sorry, as an AI language model, I don't have access to real-time data.", "Unfortunately, I can't provide the current time.", "I'm afraid I can't provide current time information."],
+            "context": [""]
+        },
+        {
+            "tag": "personal",
+            "patterns": ["What's your name?", "Who are you?", "What can I call you?", "Do you have a name?"],
+            "responses": ["You can call me AI Assistant.", "I'm your AI Assistant.", "I'm AI Assistant. Nice to meet you!"],
+            "context": [""]
+        }
+    ]
+}
+    
+
