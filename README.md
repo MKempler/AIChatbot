@@ -30,16 +30,23 @@ pip install keras nltk
 ## Usage
 ### To use the chatbot, follow these steps:
 
-Ensure that all the project files are in the same directory.
-Run the train_chatbot.py script to train the chatbot model based on the intents defined in intents.json.
-After training, you can run the chatbot GUI by executing the chatgui.py script. This will open a chat window.
-In the chat window, type your messages in the input box and press Enter or click the Send button to send them to the chatbot.
-The chatbot will process your input, predict the intent, and generate an appropriate response, which will be displayed in the chat window.
+1. Ensure that all the project files are in the same directory.
+   
+2. Run the train_chatbot.py script to train the chatbot model based on the intents defined in intents.json.
+   
+3. After training, you can run the chatbot GUI by executing the chatgui.py script. This will open a chat window.
+   
+4. In the chat window, type your messages in the input box and press Enter or click the Send button to send them to the chatbot.
+   
+5. The chatbot will process your input, predict the intent, and generate an appropriate response, which will be displayed in the chat window.
+
 Feel free to modify the intents.json file to define additional intents and responses for the chatbot.
 
 ## Limitations
 The chatbot's performance relies on the quality and variety of training data provided in intents.json. Adding more diverse examples can improve its accuracy and ability to handle different user inputs.
+
 The chatbot uses a simple bag-of-words representation and a neural network model. It may not handle complex language structures or understand context beyond individual messages.
+
 The chatbot does not have real-time data capabilities, such as providing current weather information or time.
 
 ## Contributing
