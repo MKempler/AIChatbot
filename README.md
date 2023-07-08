@@ -9,6 +9,7 @@ chatbot.py: Contains the code for the chatbot model and functions to interact wi
 chatgui.py: Implements a graphical user interface (GUI) using Tkinter for users to interact with the chatbot.
 
 train_chatbot.py: Used to train the chatbot model based on the intents defined in intents.json.
+
 intents.json: Contains the intents and their corresponding patterns and responses used for training and interaction.
 
 ## Dependencies
