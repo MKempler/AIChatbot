@@ -15,9 +15,12 @@ intents.json: Contains the intents and their corresponding patterns and response
 ## Dependencies
 ### To run the chatbot project, the following dependencies are required:
 
-Python 3.x
+Python 3
+
 Keras
+
 NLTK (Natural Language Toolkit)
+
 Tkinter
 
 ### You can install the required dependencies by running the following command:
